@@ -1,19 +1,21 @@
 /* FONTS */
 
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Krona+One&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Arvo', serif;
-  --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --font-primary: "Krona One", sans-serif;
+  --font-secondary: "Space Grotesk", sans-serif;
+  --font-code: "DM Sans", sans-serif;
+  --bg-color: #1eba9d;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #7104a7;
   --header-shadow: #000 0px 0px 5px;
 }
+/* #1eba9d; */
+/* #3bd7e8; */
 
 * {
   padding: 0;
@@ -105,7 +107,7 @@ section {
 
 .countdown ul {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 .countdown .clock-item {
   list-style: none;
@@ -169,4 +171,3 @@ section {
     font-size: 1rem;
   }
 }
- 
