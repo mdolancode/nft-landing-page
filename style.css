@@ -50,6 +50,12 @@ header .container {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
 .menu {
   display: flex;
   gap: 2rem;
